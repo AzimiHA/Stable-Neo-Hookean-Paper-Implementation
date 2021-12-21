@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\T_linear_tetrahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\V_linear_tetrahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\V_spring_particle_particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\assemble_forces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\assemble_stiffness.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\build_skinning_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\d2V_linear_tetrahedron_dq2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\d2psi_neo_hookean_dF2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\dV_linear_tetrahedron_dq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\dV_spring_particle_particle_dq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\dphi_linear_tetrahedron_dX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\dpsi_neo_hookean_dF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\fixed_point_constraints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\mass_matrix_linear_tetrahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\mass_matrix_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\phi_linear_tetrahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\src\psi_neo_hookean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\find_min_vertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\init_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\read_tetgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\T_linear_tetrahedron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\V_linear_tetrahedron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\V_spring_particle_particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\assemble_forces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\assemble_stiffness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\build_skinning_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\d2V_linear_tetrahedron_dq2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\d2psi_neo_hookean_dq2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\dV_linear_tetrahedron_dq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\dV_spring_particle_particle_dq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\dphi_linear_tetrahedron_dX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\dpsi_neo_hookean_dF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\fixed_point_constraints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\implicit_euler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\linearly_implicit_euler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\mass_matrix_linear_tetrahedron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\mass_matrix_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\newtons_method.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\phi_linear_tetrahedron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\pick_nearest_vertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\psi_neo_hookean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\include\quadrature_single_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\include\EigenTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\include\find_min_vertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\include\init_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\include\read_tetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\amira\CLionProjects\CSC417FinalProject\shared\include\visualization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\amira\CLionProjects\CSC417FinalProject\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D682A13B-CF07-3114-AF83-2AA3FADD69C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A5EACDF3-28D8-3F22-9908-CAB76B5CA741}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

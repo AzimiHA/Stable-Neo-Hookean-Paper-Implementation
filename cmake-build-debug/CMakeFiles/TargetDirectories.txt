@@ -1,0 +1,14 @@
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/CMakeFiles/a3-finite-elements-3d.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glad/CMakeFiles/glad.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glad/CMakeFiles/edit_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glad/CMakeFiles/rebuild_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glfw/CMakeFiles/edit_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glfw/CMakeFiles/rebuild_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glfw/src/CMakeFiles/rebuild_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/glfw/src/CMakeFiles/edit_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/imgui/CMakeFiles/imgui.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/imgui/CMakeFiles/edit_cache.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/cmake-build-debug/imgui/CMakeFiles/rebuild_cache.dir

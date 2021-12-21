@@ -1,0 +1,826 @@
+﻿  Building Custom Rule C:/Users/amira/CLionProjects/CSC417FinalProject/CMakeLists.txt
+  main.cpp
+  T_linear_tetrahedron.cpp
+  V_linear_tetrahedron.cpp
+  V_spring_particle_particle.cpp
+  assemble_forces.cpp
+  assemble_stiffness.cpp
+  build_skinning_matrix.cpp
+  d2V_linear_tetrahedron_dq2.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\assemble_forces.cpp(17,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\build_skinning_matrix.cpp(14,11): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\build_skinning_matrix.cpp(15,11): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\build_skinning_matrix.cpp(16,11): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\assemble_stiffness.cpp(16,11): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\bind_vertex_attrib_array.cpp(21,35): warning C4244: 'argument': conversion from '__int64' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\MeshGL.cpp(144,33): warning C4244: 'argument': conversion from '__int64' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\MeshGL.cpp(152,44): warning C4244: 'argument': conversion from '__int64' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\MeshGL.cpp(157,46): warning C4244: 'argument': conversion from '__int64' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(16,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(17,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(18,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(23,78): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(24,78): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(25,79): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(26,84): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(39,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(40,75): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(43,73): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(44,74): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(45,82): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(47,46): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(48,48): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(49,44): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(50,44): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(51,48): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(52,46): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(54,47): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(55,51): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(37,1): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  d2psi_neo_hookean_dF2.cpp
+  dV_linear_tetrahedron_dq.cpp
+  dV_spring_particle_particle_dq.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(283,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  dphi_linear_tetrahedron_dX.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(332,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  dpsi_neo_hookean_dF.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(353,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  fixed_point_constraints.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(676,39): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(677,39): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(34,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(68,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(85,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,60): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,47): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,34): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,21): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,61): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,48): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,35): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,22): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(150,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(155,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(156,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(255,18): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(256,19): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(301,19): warning C4244: 'argument': conversion from 'unsigned int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(301,25): warning C4244: 'argument': conversion from 'unsigned int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\EPS.h(16,36): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\EPS.h(17,37): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(94,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(95,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(103,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(103,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(112,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(162,10): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(163,40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(167,10): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(168,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(667,54): warning C4244: 'argument': conversion from '__int64' to 'const double', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(672,51): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(672,41): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(672,31): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(776,25): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(775,25): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(774,30): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(773,30): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(770,51): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(770,32): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(788,65): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(789,65): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(831,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(937,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(937,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(946,47): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(946,45): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(994,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(996,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1008,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1010,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1065,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1067,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1077,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1079,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl/opengl/glfw/imgui/ImGuiMenu.h(97,33): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiHelpers.h(40,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiHelpers.h(58,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp(61,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp(393,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp(420,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\fixed_point_constraints.cpp(7,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  mass_matrix_linear_tetrahedron.cpp
+  mass_matrix_mesh.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(182,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(182,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(182,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(308,29): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(308,20): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(310,38): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  phi_linear_tetrahedron.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\ortho.cpp(21,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(151): message : see reference to function template instantiation 'void igl::ortho<Eigen::Matrix<float,4,4,0,4,4>>(const float,const float,const float,const float,const float,const float,Eigen::PlainObjectBase<Eigen::Matrix<float,4,4,0,4,4>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\ortho.cpp(22,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\ortho.cpp(23,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\frustum.cpp(20,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(157): message : see reference to function template instantiation 'void igl::frustum<Eigen::Matrix<float,4,4,0,4,4>>(const float,const float,const float,const float,const float,const float,Eigen::PlainObjectBase<Eigen::Matrix<float,4,4,0,4,4>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\frustum.cpp(21,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\frustum.cpp(26,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  pick_nearest_vertices.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\writeOBJ.cpp(33,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(489): message : see reference to function template instantiation 'bool igl::writeOBJ<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  psi_neo_hookean.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\mass_matrix_mesh.cpp(13,11): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\two_axis_valuator_fixed_up.cpp(28,62): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(777): message : see reference to function template instantiation 'void igl::two_axis_valuator_fixed_up<float,float>(const int,const int,const double,const Eigen::Quaternion<float,0> &,const int,const int,const int,const int,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\two_axis_valuator_fixed_up.cpp(38,52): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(106,23): warning C4244: 'argument': conversion from 'const double' to 'const Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(966): message : see reference to function template instantiation 'bool igl::snap_to_canonical_view_quat<float,float>(const Eigen::Quaternion<float,0> &,const double,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(248,22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(215): message : see reference to function template instantiation 'bool igl::readMESH<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\volume.cpp(21,23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(259): message : see reference to function template instantiation 'void igl::volume<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,1,0,-1,1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,1,0,-1,1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\volume.cpp(21,15): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+  find_min_vertices.cpp
+  init_state.cpp
+  read_tetgen.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_face_normals.cpp(21,13): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_face_normals.cpp(47): message : see reference to function template instantiation 'void igl::per_face_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,3,1,0,3,1>,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Eigen::Matrix<double,3,1,0,3,1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(394): message : see reference to function template instantiation 'void igl::per_face_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp(14,46): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp(14,38): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp(14,30): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp(15,38): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp(15,30): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp(42,20): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  visualization.cpp
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(20,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(177): message : see reference to function template instantiation 'bool igl::readOFF<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(403): message : see reference to function template instantiation 'bool igl::readOFF<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\list_to_matrix.cpp(22,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(184): message : see reference to function template instantiation 'bool igl::list_to_matrix<double,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(31,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(261): message : see reference to function template instantiation 'bool igl::readOBJ<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(420): message : see reference to function template instantiation 'bool igl::readOBJ<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(121,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(157): message : see reference to function template instantiation 'void igl::trackball<Scalarquat>(const double,const double,const Q_type,const Q_type *,const double,const double,const double,const double,Q_type *)' being compiled
+          with
+          [
+              Scalarquat=float,
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(766): message : see reference to function template instantiation 'void igl::trackball<float,float>(const double,const double,const double,const Eigen::Quaternion<float,0> &,const double,const double,const double,const double,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(122,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(123,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(124,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(128,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(129,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(130,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(131,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unproject.cpp(36,25): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unproject.cpp(65): message : see reference to function template instantiation 'void igl::unproject<Derived,Eigen::Matrix<float,4,4,0,4,4>,Eigen::Matrix<float,4,4,0,4,4>,Eigen::Matrix<float,4,1,0,4,1>,Eigen::Matrix<float,3,1,0,3,1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<float,4,4,0,4,4>> &,const Eigen::MatrixBase<Eigen::Matrix<float,4,4,0,4,4>> &,const Eigen::MatrixBase<Eigen::Matrix<float,4,1,0,4,1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<float,3,1,0,3,1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(788): message : see reference to function template instantiation 'Eigen::Matrix<float,3,1,0,3,1> igl::unproject<float>(const Eigen::Matrix<float,3,1,0,3,1> &,const Eigen::Matrix<float,4,4,0,4,4> &,const Eigen::Matrix<float,4,4,0,4,4> &,const Eigen::Matrix<float,4,1,0,4,1> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unproject.cpp(36,15): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unproject.cpp(36,25): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp(18): message : see reference to function template instantiation 'void igl::unproject<Derived,Eigen::Ref<const Eigen::Matrix44f,0,Eigen::OuterStride<-1>>,Eigen::Ref<const Eigen::Matrix44f,0,Eigen::OuterStride<-1>>,Eigen::Matrix<float,4,1,0,4,1>,Eigen::Matrix<float,3,1,0,3,1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Ref<const Eigen::Matrix44f,0,Eigen::OuterStride<-1>>> &,const Eigen::MatrixBase<Eigen::Ref<const Eigen::Matrix44f,0,Eigen::OuterStride<-1>>> &,const Eigen::MatrixBase<Eigen::Matrix<float,4,1,0,4,1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<float,3,1,0,3,1>
+          ]
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unproject.cpp(36,15): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\src\pick_nearest_vertices.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(48,1): warning C4305: 'initializing': truncation from 'double' to 'Q_type'
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(106): message : see reference to function template instantiation 'bool igl::snap_to_canonical_view_quat<Scalars>(const Q_type *,const Q_type,Q_type *)' being compiled
+          with
+          [
+              Scalars=float,
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(966): message : see reference to function template instantiation 'bool igl::snap_to_canonical_view_quat<float,float>(const Eigen::Quaternion<float,0> &,const double,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(64,1): warning C4244: '+=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(92,22): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\include\newtons_method.h(25,41): warning C4018: '<': signed/unsigned mismatch (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\include\implicit_euler.h(45): message : see reference to function template instantiation 'double newtons_method<implicit_euler::<lambda_a8541dc967ac91045d2abba0564badcd>,implicit_euler::<lambda_7755d73c874424d4cb98e7a09da0c104>,implicit_euler::<lambda_f6f5e892cd86f7d9b427719f88ea1199>>(Eigen::VectorXd &,Objective &,Jacobian &,Hessian &,unsigned int,Eigen::VectorXd &,Eigen::SparseMatrixd &)' being compiled
+          with
+          [
+              Objective=implicit_euler::<lambda_a8541dc967ac91045d2abba0564badcd>,
+              Jacobian=implicit_euler::<lambda_7755d73c874424d4cb98e7a09da0c104>,
+              Hessian=implicit_euler::<lambda_f6f5e892cd86f7d9b427719f88ea1199>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(165): message : see reference to function template instantiation 'void implicit_euler<simulate::<lambda_a5dea1c10449f66376a6cea6003dcb15>,simulate::<lambda_70151d03277b6a57525400444e6524e2>,simulate::<lambda_8d7e32e325158b3855390a58990322cd>>(Eigen::VectorXd &,Eigen::VectorXd &,double,const Eigen::SparseMatrixd &,ENERGY &,FORCE &,STIFFNESS &,Eigen::VectorXd &,Eigen::VectorXd &,Eigen::SparseMatrixd &)' being compiled
+          with
+          [
+              ENERGY=simulate::<lambda_a5dea1c10449f66376a6cea6003dcb15>,
+              FORCE=simulate::<lambda_70151d03277b6a57525400444e6524e2>,
+              STIFFNESS=simulate::<lambda_8d7e32e325158b3855390a58990322cd>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(280,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(254): message : see reference to function template instantiation 'bool igl::readMESH<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(FILE *,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(215): message : see reference to function template instantiation 'bool igl::readMESH<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(290,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(293,5): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(310,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(319,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(322,5): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(339,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(351,11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(363,13): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(382,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(391,11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(403,13): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(422,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(431,11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readMESH.cpp(443,13): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(33,34): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(113): message : see reference to function template instantiation 'void igl::boundary_facets<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,1,0,-1,1>,Eigen::Matrix<int,-1,1,0,-1,1>>(const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\assignment_setup.h(243): message : see reference to function template instantiation 'void igl::boundary_facets<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(33,26): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(86,40): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(86,18): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(25,25): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_vertex_normals.cpp(65): message : see reference to function template instantiation 'void igl::doublearea<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,1,0,-1,1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,1,0,-1,1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_vertex_normals.cpp(119): message : see reference to function template instantiation 'void igl::per_vertex_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const igl::PerVertexNormalsWeightingType,const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(395): message : see reference to function template instantiation 'void igl::per_vertex_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(25,17): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(53,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(65,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(48,6): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(26): message : see reference to function template instantiation 'bool igl::readOFF<double,int>(FILE *,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(177): message : see reference to function template instantiation 'bool igl::readOFF<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(72,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(85,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(113,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(116,7): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(132,8): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(140,11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(142,11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(150,14): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(153,7): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(138,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(38): message : see reference to function template instantiation 'bool igl::readOBJ<double,int>(FILE *,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(261): message : see reference to function template instantiation 'bool igl::readOBJ<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(142,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(146,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(76,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(99,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(118,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(154,15): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(160,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(165,20): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(169,20): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(173,20): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unique_rows.cpp(30,34): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(82): message : see reference to function template instantiation 'void igl::unique_rows<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,1,0,-1,1>,Eigen::Matrix<int,-1,1,0,-1,1>>(const Eigen::DenseBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(113): message : see reference to function template instantiation 'void igl::boundary_facets<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,1,0,-1,1>,Eigen::Matrix<int,-1,1,0,-1,1>>(const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,1,0,-1,1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unique_rows.cpp(30,22): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unique_rows.cpp(31,34): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unique_rows.cpp(31,22): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unique_rows.cpp(64,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unique_rows.cpp(64,1): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\bind_vertex_attrib_array.cpp(21,35): warning C4244: 'argument': conversion from '__int64' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\MeshGL.cpp(144,33): warning C4244: 'argument': conversion from '__int64' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\MeshGL.cpp(152,44): warning C4244: 'argument': conversion from '__int64' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\MeshGL.cpp(157,46): warning C4244: 'argument': conversion from '__int64' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(16,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(17,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(18,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(23,78): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(24,78): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(25,79): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(26,84): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(39,77): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(40,75): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(43,73): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(44,74): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(45,82): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(47,46): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(48,48): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(49,44): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(50,44): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(51,48): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(52,46): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(54,47): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\../material_colors.h(55,51): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(37,1): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\squared_edge_lengths.cpp(19,23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\internal_angles.cpp(30): message : see reference to function template instantiation 'void igl::squared_edge_lengths<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_vertex_normals.cpp(70): message : see reference to function template instantiation 'void igl::internal_angles<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,3,0,-1,3>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,3,0,-1,3>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\squared_edge_lengths.cpp(19,15): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(283,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(332,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(353,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(30,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(92): message : see reference to function template instantiation 'void igl::sort<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\boundary_facets.cpp(78): message : see reference to function template instantiation 'void igl::sort<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(43,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(74,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(78,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(676,39): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(677,39): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(34,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(68,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(85,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,60): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,47): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,34): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(93,21): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,61): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,48): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,35): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(127,22): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(150,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(155,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(156,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(255,18): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(256,19): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(301,19): warning C4244: 'argument': conversion from 'unsigned int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(301,25): warning C4244: 'argument': conversion from 'unsigned int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\EPS.h(16,36): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\EPS.h(17,37): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(94,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(95,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(103,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(103,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(112,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(162,10): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(163,40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(167,10): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(168,41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(667,54): warning C4244: 'argument': conversion from '__int64' to 'const double', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(672,51): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(672,41): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(672,31): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(776,25): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(775,25): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(774,30): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(773,30): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(770,51): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(770,32): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(788,65): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(789,65): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(831,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(937,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(937,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(946,47): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(946,45): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(994,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(996,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1008,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1010,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1065,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1067,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1077,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(1079,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl/opengl/glfw/imgui/ImGuiMenu.h(97,33): warning C4305: 'argument': truncation from 'double' to 'const float' (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiHelpers.h(40,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiHelpers.h(58,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp(61,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp(393,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp(420,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp(95,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp(102,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1359,22): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1326): message : see reference to function template instantiation 'void igl::colormap<T>(const double [][3],const T,T &,T &,T &)' being compiled
+          with
+          [
+              T=double
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1402): message : see reference to function template instantiation 'void igl::colormap<double>(const igl::ColorMapType,const T,T &,T &,T &)' being compiled
+          with
+          [
+              T=double
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1382): message : see reference to function template instantiation 'void igl::colormap<Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const igl::ColorMapType,const Eigen::MatrixBase<Derived> &,const double,const double,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parula.cpp(30): message : see reference to function template instantiation 'void igl::colormap<Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const igl::ColorMapType,const Eigen::MatrixBase<Derived> &,const bool,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(142): message : see reference to function template instantiation 'void igl::parula<Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const bool,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1360,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp(200,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parallel_for.h(108,62): warning C4244: 'argument': conversion from 'Index' to 'const int', possible loss of data
+          with
+          [
+              Index=Index
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(199): message : see reference to function template instantiation 'bool igl::parallel_for<Index,igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>>(const Index,const FunctionType &,const size_t)' being compiled
+          with
+          [
+              Index=Index,
+              FunctionType=igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(178,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(37): message : see reference to function template instantiation 'void igl::sort2<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(92): message : see reference to function template instantiation 'void igl::sort<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(180,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(224,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(39): message : see reference to function template instantiation 'void igl::sort3<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<int,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(226,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\ortho.cpp(21,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(151): message : see reference to function template instantiation 'void igl::ortho<Eigen::Matrix<float,4,4,0,4,4>>(const float,const float,const float,const float,const float,const float,Eigen::PlainObjectBase<Eigen::Matrix<float,4,4,0,4,4>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\ortho.cpp(22,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\ortho.cpp(23,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\frustum.cpp(20,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerCore.cpp(157): message : see reference to function template instantiation 'void igl::frustum<Eigen::Matrix<float,4,4,0,4,4>>(const float,const float,const float,const float,const float,const float,Eigen::PlainObjectBase<Eigen::Matrix<float,4,4,0,4,4>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\frustum.cpp(21,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\frustum.cpp(26,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\writeOBJ.cpp(33,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(489): message : see reference to function template instantiation 'bool igl::writeOBJ<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\two_axis_valuator_fixed_up.cpp(28,62): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(777): message : see reference to function template instantiation 'void igl::two_axis_valuator_fixed_up<float,float>(const int,const int,const double,const Eigen::Quaternion<float,0> &,const int,const int,const int,const int,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\two_axis_valuator_fixed_up.cpp(38,52): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(106,23): warning C4244: 'argument': conversion from 'const double' to 'const Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(966): message : see reference to function template instantiation 'bool igl::snap_to_canonical_view_quat<float,float>(const Eigen::Quaternion<float,0> &,const double,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unproject.cpp(36,25): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp(394): message : see reference to function template instantiation 'void igl::unproject<Derived,Eigen::Matrix<float,4,4,0,4,4>,Eigen::Matrix<float,4,4,0,4,4>,Eigen::Matrix<float,4,1,0,4,1>,Eigen::Matrix<double,3,1,0,3,1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<float,4,4,0,4,4>> &,const Eigen::MatrixBase<Eigen::Matrix<float,4,4,0,4,4>> &,const Eigen::MatrixBase<Eigen::Matrix<float,4,1,0,4,1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,3,1,0,3,1>
+          ]
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\unproject.cpp(36,15): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parallel_for.h(133,14): warning C4018: '<': signed/unsigned mismatch (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parallel_for.h(109): message : see reference to function template instantiation 'bool igl::parallel_for<Index,igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>,igl::parallel_for::<lambda_866582420a11052db64bc10a9448d1c2>,igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>>(const Index,const PreFunctionType &,const FunctionType &,const AccumFunctionType &,const size_t)' being compiled
+          with
+          [
+              Index=Index,
+              PreFunctionType=igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>,
+              FunctionType=igl::parallel_for::<lambda_866582420a11052db64bc10a9448d1c2>,
+              AccumFunctionType=igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(199): message : see reference to function template instantiation 'bool igl::parallel_for<Index,igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>>(const Index,const FunctionType &,const size_t)' being compiled
+          with
+          [
+              Index=Index,
+              FunctionType=igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\main.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_face_normals.cpp(21,13): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_face_normals.cpp(47): message : see reference to function template instantiation 'void igl::per_face_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,3,1,0,3,1>,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Eigen::Matrix<double,3,1,0,3,1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(394): message : see reference to function template instantiation 'void igl::per_face_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(20,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(177): message : see reference to function template instantiation 'bool igl::readOFF<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(403): message : see reference to function template instantiation 'bool igl::readOFF<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\list_to_matrix.cpp(22,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(184): message : see reference to function template instantiation 'bool igl::list_to_matrix<double,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(31,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(261): message : see reference to function template instantiation 'bool igl::readOBJ<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(420): message : see reference to function template instantiation 'bool igl::readOBJ<Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const std::string,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(121,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(157): message : see reference to function template instantiation 'void igl::trackball<Scalarquat>(const double,const double,const Q_type,const Q_type *,const double,const double,const double,const double,Q_type *)' being compiled
+          with
+          [
+              Scalarquat=float,
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(766): message : see reference to function template instantiation 'void igl::trackball<float,float>(const double,const double,const double,const Eigen::Quaternion<float,0> &,const double,const double,const double,const double,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(122,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(123,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(124,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(128,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(129,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(130,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\trackball.cpp(131,23): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(48,1): warning C4305: 'initializing': truncation from 'double' to 'Q_type'
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(106): message : see reference to function template instantiation 'bool igl::snap_to_canonical_view_quat<Scalars>(const Q_type *,const Q_type,Q_type *)' being compiled
+          with
+          [
+              Scalars=float,
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\glfw\Viewer.cpp(966): message : see reference to function template instantiation 'bool igl::snap_to_canonical_view_quat<float,float>(const Eigen::Quaternion<float,0> &,const double,Eigen::Quaternion<float,0> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(64,1): warning C4244: '+=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\snap_to_canonical_view_quat.cpp(92,22): warning C4244: '=': conversion from 'double' to 'Q_type', possible loss of data
+          with
+          [
+              Q_type=float
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(25,25): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_vertex_normals.cpp(65): message : see reference to function template instantiation 'void igl::doublearea<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,1,0,-1,1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,1,0,-1,1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_vertex_normals.cpp(119): message : see reference to function template instantiation 'void igl::per_vertex_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const igl::PerVertexNormalsWeightingType,const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(395): message : see reference to function template instantiation 'void igl::per_vertex_normals<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,const Eigen::MatrixBase<Derived> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(25,17): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(53,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(65,1): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(48,6): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(26): message : see reference to function template instantiation 'bool igl::readOFF<double,int>(FILE *,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(177): message : see reference to function template instantiation 'bool igl::readOFF<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(72,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(85,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(113,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(116,7): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(132,8): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(140,11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(142,11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(150,14): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOFF.cpp(153,7): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(138,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(38): message : see reference to function template instantiation 'bool igl::readOBJ<double,int>(FILE *,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(261): message : see reference to function template instantiation 'bool igl::readOBJ<double,int>(const std::string,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)' being compiled (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(142,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(146,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(76,8): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(99,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(118,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(154,15): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(160,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(165,20): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(169,20): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\readOBJ.cpp(173,20): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\squared_edge_lengths.cpp(19,23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\internal_angles.cpp(30): message : see reference to function template instantiation 'void igl::squared_edge_lengths<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\per_vertex_normals.cpp(70): message : see reference to function template instantiation 'void igl::internal_angles<Derived,Eigen::Matrix<int,-1,-1,0,-1,-1>,Eigen::Matrix<double,-1,3,0,-1,3>>(const Eigen::MatrixBase<Derived> &,const Eigen::MatrixBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,3,0,-1,3>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\squared_edge_lengths.cpp(19,15): warning C4244: 'initializing': conversion from '__int64' to 'const int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1359,22): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1326): message : see reference to function template instantiation 'void igl::colormap<T>(const double [][3],const T,T &,T &,T &)' being compiled
+          with
+          [
+              T=double
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1402): message : see reference to function template instantiation 'void igl::colormap<double>(const igl::ColorMapType,const T,T &,T &,T &)' being compiled
+          with
+          [
+              T=double
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1382): message : see reference to function template instantiation 'void igl::colormap<Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const igl::ColorMapType,const Eigen::MatrixBase<Derived> &,const double,const double,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parula.cpp(30): message : see reference to function template instantiation 'void igl::colormap<Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const igl::ColorMapType,const Eigen::MatrixBase<Derived> &,const bool,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\opengl\ViewerData.cpp(142): message : see reference to function template instantiation 'void igl::parula<Derived,Eigen::Matrix<double,-1,-1,0,-1,-1>>(const Eigen::MatrixBase<Derived> &,const bool,Eigen::PlainObjectBase<Derived> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\colormap.cpp(1360,21): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(30,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(162): message : see reference to function template instantiation 'void igl::sort<Derived,Eigen::Matrix<double,-1,3,0,-1,3>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,3,0,-1,3>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(72): message : see reference to function template instantiation 'void igl::doublearea<Derived,Eigen::Matrix<double,-1,1,0,-1,1>>(const Eigen::MatrixBase<Derived> &,const double,Eigen::PlainObjectBase<Eigen::Matrix<double,-1,1,0,-1,1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,3,0,-1,3>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(43,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(74,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(78,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parallel_for.h(108,62): warning C4244: 'argument': conversion from 'Index' to 'const int', possible loss of data
+          with
+          [
+              Index=Index
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(199): message : see reference to function template instantiation 'bool igl::parallel_for<Index,igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>>(const Index,const FunctionType &,const size_t)' being compiled
+          with
+          [
+              Index=Index,
+              FunctionType=igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(178,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(37): message : see reference to function template instantiation 'void igl::sort2<Derived,Eigen::Matrix<double,-1,3,0,-1,3>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,3,0,-1,3>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(162): message : see reference to function template instantiation 'void igl::sort<Derived,Eigen::Matrix<double,-1,3,0,-1,3>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,3,0,-1,3>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(180,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(224,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(39): message : see reference to function template instantiation 'void igl::sort3<Derived,Eigen::Matrix<double,-1,3,0,-1,3>,Eigen::Matrix<int,-1,-1,0,-1,-1>>(const Eigen::DenseBase<Derived> &,const int,const bool,Eigen::PlainObjectBase<Derived> &,Eigen::PlainObjectBase<Eigen::Matrix<int,-1,-1,0,-1,-1>> &)' being compiled
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,3,0,-1,3>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\sort.cpp(226,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parallel_for.h(133,14): warning C4018: '<': signed/unsigned mismatch (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\parallel_for.h(109): message : see reference to function template instantiation 'bool igl::parallel_for<Index,igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>,igl::parallel_for::<lambda_866582420a11052db64bc10a9448d1c2>,igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>>(const Index,const PreFunctionType &,const FunctionType &,const AccumFunctionType &,const size_t)' being compiled
+          with
+          [
+              Index=Index,
+              PreFunctionType=igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>,
+              FunctionType=igl::parallel_for::<lambda_866582420a11052db64bc10a9448d1c2>,
+              AccumFunctionType=igl::parallel_for::<lambda_946a5f5e8ace55b1c74f1e4340b12c92>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+C:\Users\amira\CLionProjects\CSC417FinalProject\extern\libigl\include\igl\doublearea.cpp(199): message : see reference to function template instantiation 'bool igl::parallel_for<Index,igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>>(const Index,const FunctionType &,const size_t)' being compiled
+          with
+          [
+              Index=Index,
+              FunctionType=igl::doublearea::<lambda_68877b35a93cbac5e1ff095c5c17bfef>
+          ] (compiling source file C:\Users\amira\CLionProjects\CSC417FinalProject\shared\src\visualization.cpp)
+  a3-finite-elements-3d.vcxproj -> C:\Users\amira\CLionProjects\CSC417FinalProject\build\Release\a3-finite-elements-3d.exe

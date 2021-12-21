@@ -1,0 +1,8 @@
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/CMakeFiles/a3-finite-elements-3d.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/glad/CMakeFiles/glad.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/glad/CMakeFiles/ALL_BUILD.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/glfw/src/CMakeFiles/glfw.dir
+C:/Users/amira/CLionProjects/CSC417FinalProject/build/imgui/CMakeFiles/imgui.dir

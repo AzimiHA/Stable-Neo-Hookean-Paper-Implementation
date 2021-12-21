@@ -1,0 +1,10 @@
+^C:\USERS\AMIRA\CLIONPROJECTS\CSC417FINALPROJECT\BUILD\CMAKEFILES\E034E0D7428B77D82F3A909BC1FB821A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/amira/CLionProjects/CSC417FinalProject -BC:/Users/amira/CLionProjects/CSC417FinalProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/amira/CLionProjects/CSC417FinalProject/build/a3-finite-elements-3d.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
