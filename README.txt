@@ -1,3 +1,6 @@
+Implemented the Stable-Neo-Hookean algorithm from https://graphics.pixar.com/library/StableElasticity/paper.pdf. 
+Also implemented multiple different test scenarios to test the efficacy of my implementation. 
+-------------------------------------------------------
 TO build the executable, remove the build folder,
 then use:
 mkdir build
